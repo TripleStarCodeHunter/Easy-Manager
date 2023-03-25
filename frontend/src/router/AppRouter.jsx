@@ -32,6 +32,10 @@ const NotFound = lazy(() =>
   import(/*webpackChunkName:'NotFoundPage'*/ "@/pages/NotFound")
 );
 
+const Success = lazy(() =>
+  import(/*webpackChunkName:'SuccessPage'*/ "@/pages/payment-success")
+);
+
 export default function AppRouter() {
   const location = useLocation();
   return (
@@ -45,6 +49,7 @@ export default function AppRouter() {
             path="/selectcustomer"
             exact
           />
+          <PrivateRoute component={Success} path="/success" exact/>
           <PrivateRoute component={Lead} path="/lead" exact />
           <PrivateRoute component={Product} path="/product" exact />
           <PrivateRoute component={Admin} path="/admin" exact />
