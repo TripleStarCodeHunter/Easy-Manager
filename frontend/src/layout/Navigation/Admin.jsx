@@ -37,7 +37,7 @@ function NavigationAdmin() {
             Home Page
           </Menu.Item>
           <Menu.Item key="2" icon={<CustomerServiceOutlined />}>
-            <Link to="/customer">Customer</Link>
+            <Link to="/customer">Client</Link>
           </Menu.Item>
           {/* <Menu.Item key="24" icon={<UserOutlined />}>
             <Link to="/selectcustomer">Custom Select Customer</Link>
@@ -52,7 +52,7 @@ function NavigationAdmin() {
           </Menu.Item> */}
           <Menu.Item key="31" icon={<TeamOutlined />}>
             <Link to="/admin" />
-            Admins Management
+            Franchise Management
           </Menu.Item>
 
           {/* <Menu.Item key="32" icon={<SettingOutlined />}>
