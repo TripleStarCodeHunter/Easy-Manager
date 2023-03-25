@@ -143,8 +143,6 @@ export default function Dashboard() {
 
   return (
     <DashboardLayout>
-
-
       <Row gutter={[24, 24]}>
         <TopCard
           title={"Total Clients"}
@@ -152,8 +150,6 @@ export default function Dashboard() {
           prefix={"This year"}
           tagContent={"200"}
         />
-        {/* <PayButton></PayButton> */}
-        {/* <PayButton/> */}
 
         <TopCard
           title={"New Clients"}
@@ -172,7 +168,8 @@ export default function Dashboard() {
           tagColor={"red"}
           prefix={"Not Paid"}
           tagContent={"34000 Rs"}
-        />
+        ></TopCard>
+        <PayButton />
       </Row>
       <div className="space30"></div>
       <Row gutter={[24, 24]}>
@@ -237,7 +234,7 @@ export default function Dashboard() {
         </Col> */}
         <Col className="gutter-row" span={18}>
           {/* <canvas id="myChart" width="100%" height="100%"></canvas> */}
-          <GraphDashboard/>
+          <GraphDashboard />
         </Col>
 
         <Col className="gutter-row" span={6}>

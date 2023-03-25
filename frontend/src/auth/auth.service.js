@@ -13,6 +13,7 @@ export const login = async (loginAdminData) => {
       API_BASE_URL + `login?timestamp=${new Date().getTime()}`,
       loginAdminData
     );
+
     token.set(response.data.result.token);
     return successHandler(response);
   } catch (error) {

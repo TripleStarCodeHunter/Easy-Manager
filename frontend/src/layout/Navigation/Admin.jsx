@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { Link } from "react-router-dom";
 import { Layout, Menu } from "antd";
 import {
@@ -15,7 +14,7 @@ import {
 const { Sider } = Layout;
 const { SubMenu } = Menu;
 
-function Navigation() {
+function NavigationAdmin() {
   const [collapsed, setCollapsed] = useState(false);
 
   const onCollapse = () => {
@@ -65,4 +64,4 @@ function Navigation() {
     </>
   );
 }
-export default Navigation;
+export default NavigationAdmin;

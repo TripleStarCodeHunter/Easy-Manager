@@ -55,7 +55,7 @@ export default function AdminForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Contact"
-        name="Contact"
+        name="contact"
         rules={[
           {
             required: true,
