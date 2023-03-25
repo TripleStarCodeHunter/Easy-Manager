@@ -7,7 +7,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
     <>
       <Form.Item
         label="Franchise Name"
-        name="Franchise_company"
+        name="franchise_company"
         rules={[
           {
             required: true,
@@ -19,7 +19,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Surname"
-        name="Surname"
+        name="surname"
         rules={[
           {
             required: true,
@@ -36,7 +36,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Name"
-        name="First_name"
+        name="first_name"
         rules={[
           {
             required: true,
@@ -53,7 +53,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
 
       <Form.Item
-        name="Contact_no"
+        name="contact_no"
         label="Phone"
         rules={[
           {
@@ -65,7 +65,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
         <Input />
       </Form.Item>
       <Form.Item
-        name="Email"
+        name="email"
         label="E-mail"
         rules={[
           {
@@ -82,7 +82,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Address"
-        name="Address"
+        name="address"
         rules={[
           {
             required: true,
@@ -94,7 +94,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Gender"
-        name="Gender"
+        name="gender"
         rules={[
           {
             required: true,
@@ -106,7 +106,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Age"
-        name="Age"
+        name="age"
         rules={[
           {
             required: true,
@@ -118,7 +118,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Marital Status"
-        name="Marital_Status"
+        name="marital_status"
         rules={[
           {
             required: true,
@@ -130,7 +130,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Height"
-        name="Height"
+        name="height"
         rules={[
           {
             required: true,
@@ -142,7 +142,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Weight"
-        name="Weight"
+        name="weight"
         rules={[
           {
             required: true,
@@ -153,8 +153,8 @@ export default function CustomerForm({ isUpdateForm = false }) {
         <Input />
       </Form.Item>
       <Form.Item
-        label="Your Diet"
-        name="Vegetarian"
+        label="Diet"
+        name="vegetarian"
         rules={[
           {
             required: true,
@@ -162,11 +162,9 @@ export default function CustomerForm({ isUpdateForm = false }) {
           },
         ]}
       >
-        <Radio.Group>
-          <Radio value="Veg">Veg</Radio>
-          <Radio value="Non-Veg">NonVeg</Radio>
-        </Radio.Group>
+        <Input />
       </Form.Item>
+      
     </>
   );
 }

@@ -17,16 +17,16 @@ function Customer() {
 
   const readColumns = [
     {
-      title: "Company",
-      dataIndex: "company",
+      title: "Franchise",
+      dataIndex: "franchise_company",
     },
     {
-      title: "Manager Surname",
+      title: "First Name",
+      dataIndex: "first_name",
+    },
+    {
+      title: "Surname",
       dataIndex: "surname",
-    },
-    {
-      title: "Manager Name",
-      dataIndex: "name",
     },
     {
       title: "Email",
@@ -34,25 +34,53 @@ function Customer() {
     },
     {
       title: "Phone",
-      dataIndex: "phone",
+      dataIndex: "contact_no",
+    },
+    {
+      title: "Age",
+      dataIndex: "age",
+    },
+    {
+      title: "Address",
+      dataIndex: "address",
+    },
+    {
+      title: "Gender",
+      dataIndex: "gender",
+    },
+    {
+      title: "Marital Status",
+      dataIndex: "marital_status",
+    },
+    {
+      title: "Height",
+      dataIndex: "height",
+    },
+    {
+      title: "Weight",
+      dataIndex: "weight",
+    },
+    {
+      title: "Diet",
+      dataIndex: "vegetarian",
     },
   ];
   const dataTableColumns = [
     {
-      title: "Company",
-      dataIndex: "company",
+      title: "Franchise",
+      dataIndex: "franchise_company",
     },
     {
-      title: "Manager Surname",
+      title: "First Name",
+      dataIndex: "first_name",
+    },
+    {
+      title: "Surame",
       dataIndex: "surname",
     },
     {
-      title: "Manager Name",
-      dataIndex: "name",
-    },
-    {
-      title: "Email",
-      dataIndex: "email",
+      title: "Contact No",
+      dataIndex: "contact_no",
     },
   ];
 

@@ -19,12 +19,15 @@ export default function Admin() {
     { title: "Name", dataIndex: "name" },
     { title: "Surname", dataIndex: "surname" },
     { title: "Email", dataIndex: "email" },
+    { title: "Contact No", dataIndex: "contact" },
+    { title: "Number of Clients", dataIndex: "no_of_clients" },
   ];
 
   const dataTableColumns = [
     { title: "Name", dataIndex: "name" },
     { title: "Surname", dataIndex: "surname" },
     { title: "Email", dataIndex: "email" },
+    { title: "Number of Clients", dataIndex: "no_of_clients" },
   ];
   const ADD_NEW_ENTITY = "Add new admin";
   const DATATABLE_TITLE = "Admins List";

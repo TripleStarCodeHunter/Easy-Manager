@@ -25,9 +25,13 @@ const adminSchema = new Schema({
   },
   name: { type: String, required: true },
   surname: { type: String, required: true },
-  photo: {
-    type: String,
-    trim: true,
+  contact: {
+    type: Number,
+    required: true,
+  },
+  no_of_clients: {
+    type:Number,
+    default: 0
   },
   createdAt: {
     type: Date,

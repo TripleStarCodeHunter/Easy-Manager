@@ -53,6 +53,17 @@ export default function AdminForm({ isUpdateForm = false }) {
       >
         <Input autoComplete="off" />
       </Form.Item>
+      <Form.Item
+        label="Contact"
+        name="Contact"
+        rules={[
+          {
+            required: true,
+          },
+        ]}
+      >
+        <Input autoComplete="off" />
+      </Form.Item>
     </>
   );
 }
