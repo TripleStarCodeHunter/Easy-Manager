@@ -11,8 +11,8 @@ function Customer() {
     outputValue: "_id",
   };
 
-  const panelTitle = "Customer Panel";
-  const dataTableTitle = "Customers Lists";
+  const panelTitle = "Clients Panel";
+  const dataTableTitle = "Clients Lists";
   const entityDisplayLabels = ["company"];
 
   const readColumns = [
@@ -84,11 +84,11 @@ function Customer() {
     },
   ];
 
-  const ADD_NEW_ENTITY = "Add new customer";
-  const DATATABLE_TITLE = "customers List";
-  const ENTITY_NAME = "customer";
-  const CREATE_ENTITY = "Create customer";
-  const UPDATE_ENTITY = "Update customer";
+  const ADD_NEW_ENTITY = "Add new Client";
+  const DATATABLE_TITLE = "Clients List";
+  const ENTITY_NAME = "Client";
+  const CREATE_ENTITY = "Create Client";
+  const UPDATE_ENTITY = "Update Client";
   const config = {
     entity,
     panelTitle,

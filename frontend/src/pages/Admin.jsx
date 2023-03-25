@@ -11,8 +11,8 @@ export default function Admin() {
     outputValue: "_id",
   };
 
-  const panelTitle = "Admin Panel";
-  const dataTableTitle = "Admin Lists";
+  const panelTitle = "Franchise Panel";
+  const dataTableTitle = "Franchise Lists";
   const entityDisplayLabels = ["email"];
 
   const readColumns = [
@@ -29,7 +29,7 @@ export default function Admin() {
     { title: "Email", dataIndex: "email" },
     { title: "Number of Clients", dataIndex: "no_of_clients" },
   ];
-  const ADD_NEW_ENTITY = "Add new admin";
+  const ADD_NEW_ENTITY = "Add new Franchise";
   const DATATABLE_TITLE = "Admins List";
   const ENTITY_NAME = "admin";
   const CREATE_ENTITY = "Create admin";
