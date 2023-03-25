@@ -2,7 +2,6 @@ const express = require("express");
 const { catchErrors } = require("../handlers/errorHandlers");
 
 const router = express.Router();
-
 const adminController = require("../controllers/adminController");
 const clientController = require("../controllers/clientController");
 
@@ -50,5 +49,6 @@ router
   .delete(catchErrors(productController.delete));
 router.route("/product/search").get(catchErrors(productController.search));
 router.route("/product/list").get(catchErrors(productController.list));
+
 
 module.exports = router;

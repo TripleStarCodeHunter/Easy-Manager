@@ -6,62 +6,62 @@ const clientSchema = new mongoose.Schema({
     type: Boolean,
     default: true,
   },
-  Franchise_company: {
+  franchise_company: {
     type: String,
     trim: true,
     required: true,
   },
-  First_name: {
+  first_name: {
     type: String,
     trim: true,
     required: true,
   },
-  Surname: {
+  surname: {
     type: String,
     trim: true,
     required: true,
   },
-  Contact_No: {
+  contact_no: {
     type: Number,
     trim: true,
     required: true,
   },
-  Email: {
+  email: {
     type: String,
     trim: true,
     required: true,
   },
-  Address: {
+  address: {
     type: String,
     trim: true,
     required: true,
   },
-  Gender: {
+  gender: {
     type: String,
     trim: true,
     required: true,
   },
-  Age: {
+  age: {
     type: Number,
     trim: true,
     required: true,
   },
-  Marital_Status: {
+  marital_status: {
     type: String,
     trim: true,
     required: true,
   },
-  Height: {
+  height: {
     type: Number,
     trim: true,
     required: true,
   },
-  Weight: {
+  weight: {
     type: Number,
     trim: true,
     required: true,
   },
-  Vegetarian: {
+  vegetarian: {
     type: String,
     trim: true,
     required: true,
