@@ -10,6 +10,7 @@ import RecentTable from "@/components/RecentTable";
 
 import PayButton from "@/components/pay-button/pay-button";
 import GraphDashboard from "@/components/graph-dashboard/graph-dashboard";
+import Gauge from "@/components/graph-dashboard/GaugeChart";
 
 const TopCard = ({ title, tagContent, tagColor, prefix }) => {
   return (
@@ -250,7 +251,8 @@ export default function Dashboard() {
                 Customer Preview
               </h3>
 
-              <Progress type="dashboard" percent={25} width={148} />
+              {/* <Progress type="dashboard" percent={25} width={148} /> */}
+              <Gauge/>
               <p>New Customer this Month</p>
               <Divider />
               <Statistic
