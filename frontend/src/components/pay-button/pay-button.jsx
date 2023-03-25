@@ -1,7 +1,4 @@
 import './pay-button.css'
-import { useState,useEffect } from 'react';
-import { loadStripe } from '@stripe/stripe-js';
-
 
 const PayButton = ()=>{
     

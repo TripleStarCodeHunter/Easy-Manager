@@ -9,6 +9,7 @@ import { DashboardLayout } from "@/layout";
 import RecentTable from "@/components/RecentTable";
 
 import PayButton from "@/components/pay-button/pay-button";
+import GraphDashboard from "@/components/graph-dashboard/graph-dashboard";
 
 const TopCard = ({ title, tagContent, tagColor, prefix }) => {
   return (
@@ -175,7 +176,7 @@ export default function Dashboard() {
       </Row>
       <div className="space30"></div>
       <Row gutter={[24, 24]}>
-        <Col className="gutter-row" span={18}>
+        {/* <Col className="gutter-row" span={18}>
           <div className="whiteBox shadow" style={{ height: "380px" }}>
             <Row className="pad10" gutter={[0, 0]}>
               <Col className="gutter-row" span={8}>
@@ -233,6 +234,10 @@ export default function Dashboard() {
               </Col>
             </Row>
           </div>
+        </Col> */}
+        <Col className="gutter-row" span={18}>
+          {/* <canvas id="myChart" width="100%" height="100%"></canvas> */}
+          <GraphDashboard/>
         </Col>
 
         <Col className="gutter-row" span={6}>
