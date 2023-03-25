@@ -8,6 +8,8 @@ import { ArrowUpOutlined, ArrowDownOutlined } from "@ant-design/icons";
 import { DashboardLayout } from "@/layout";
 import RecentTable from "@/components/RecentTable";
 
+import PayButton from "@/components/pay-button/pay-button";
+
 const TopCard = ({ title, tagContent, tagColor, prefix }) => {
   return (
     <Col className="gutter-row" span={6}>
@@ -140,6 +142,8 @@ export default function Dashboard() {
 
   return (
     <DashboardLayout>
+
+
       <Row gutter={[24, 24]}>
         <TopCard
           title={"Leads"}
@@ -147,6 +151,9 @@ export default function Dashboard() {
           prefix={"This month"}
           tagContent={"34 000 $"}
         />
+        {/* <PayButton></PayButton> */}
+        {/* <PayButton/> */}
+
         <TopCard
           title={"Order"}
           tagColor={"purple"}
