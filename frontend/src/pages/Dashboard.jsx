@@ -142,28 +142,28 @@ export default function Dashboard() {
     <DashboardLayout>
       <Row gutter={[24, 24]}>
         <TopCard
-          title={"Leads"}
+          title={"Total Clients"}
           tagColor={"cyan"}
-          prefix={"This month"}
-          tagContent={"34 000 $"}
+          prefix={"This year"}
+          tagContent={"200"}
         />
         <TopCard
-          title={"Order"}
+          title={"New Clients"}
           tagColor={"purple"}
           prefix={"This month"}
-          tagContent={"34 000 $"}
+          tagContent={"34"}
         />
         <TopCard
-          title={"Payment"}
+          title={"Total Revenue"}
           tagColor={"green"}
           prefix={"This month"}
-          tagContent={"34 000 $"}
+          tagContent={"340000 Rs"}
         />
         <TopCard
-          title={"Due Balance"}
+          title={"Due Royalties"}
           tagColor={"red"}
           prefix={"Not Paid"}
-          tagContent={"34 000 $"}
+          tagContent={"34000 Rs"}
         />
       </Row>
       <div className="space30"></div>
@@ -253,13 +253,13 @@ export default function Dashboard() {
           </div>
         </Col>
       </Row>
-      <div className="space30"></div>
+      {/* <div className="space30"></div>
       <Row gutter={[24, 24]}>
         <Col className="gutter-row" span={12}>
           <div className="whiteBox shadow">
             <div className="pad20">
               <h3 style={{ color: "#22075e", marginBottom: 5 }}>
-                Recent Leads
+                Recent Clients
               </h3>
             </div>
 
@@ -277,7 +277,7 @@ export default function Dashboard() {
             <RecentTable entity={"product"} dataTableColumns={productColumns} />
           </div>
         </Col>
-      </Row>
+      </Row> */}
     </DashboardLayout>
   );
 }
