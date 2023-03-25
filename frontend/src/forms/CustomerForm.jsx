@@ -1,16 +1,17 @@
 import React from "react";
-import { Button, Form, Input } from "antd";
+import { Button, Form, Input, Radio } from "antd";
+import TextArea from "antd/lib/input/TextArea";
 
 export default function CustomerForm({ isUpdateForm = false }) {
   return (
     <>
       <Form.Item
-        label="company Name"
-        name="company"
+        label="Franchise Name"
+        name="Franchise_company"
         rules={[
           {
             required: true,
-            message: "Please input your company name!",
+            message: "Please input the name of your franchise name!",
           },
         ]}
       >
@@ -18,7 +19,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Surname"
-        name="surname"
+        name="Surname"
         rules={[
           {
             required: true,
@@ -35,11 +36,11 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
       <Form.Item
         label="Name"
-        name="name"
+        name="First_name"
         rules={[
           {
             required: true,
-            message: "Please input your manager name!",
+            message: "Please input your First name!",
           },
         ]}
         style={{
@@ -52,7 +53,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
       </Form.Item>
 
       <Form.Item
-        name="phone"
+        name="Contact_no"
         label="Phone"
         rules={[
           {
@@ -64,7 +65,7 @@ export default function CustomerForm({ isUpdateForm = false }) {
         <Input />
       </Form.Item>
       <Form.Item
-        name="email"
+        name="Email"
         label="E-mail"
         rules={[
           {
@@ -78,6 +79,93 @@ export default function CustomerForm({ isUpdateForm = false }) {
         ]}
       >
         <Input />
+      </Form.Item>
+      <Form.Item
+        label="Address"
+        name="Address"
+        rules={[
+          {
+            required: true,
+            message: "Please input your address!",
+          },
+        ]}
+      >
+        <TextArea />
+      </Form.Item>
+      <Form.Item
+        label="Gender"
+        name="Gender"
+        rules={[
+          {
+            required: true,
+            message: "Please input your gender!",
+          },
+        ]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item
+        label="Age"
+        name="Age"
+        rules={[
+          {
+            required: true,
+            message: "Please input your age!",
+          },
+        ]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item
+        label="Marital Status"
+        name="Marital_Status"
+        rules={[
+          {
+            required: true,
+            message: "Please input your marital status!",
+          },
+        ]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item
+        label="Height"
+        name="Height"
+        rules={[
+          {
+            required: true,
+            message: "Please input your height!",
+          },
+        ]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item
+        label="Weight"
+        name="Weight"
+        rules={[
+          {
+            required: true,
+            message: "Please input your weight!",
+          },
+        ]}
+      >
+        <Input />
+      </Form.Item>
+      <Form.Item
+        label="Your Diet"
+        name="Vegetarian"
+        rules={[
+          {
+            required: true,
+            message: "Please input your diet!",
+          },
+        ]}
+      >
+        <Radio.Group>
+          <Radio value="Veg">Veg</Radio>
+          <Radio value="Non-Veg">NonVeg</Radio>
+        </Radio.Group>
       </Form.Item>
     </>
   );

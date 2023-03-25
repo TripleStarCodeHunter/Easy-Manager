@@ -6,70 +6,65 @@ const clientSchema = new mongoose.Schema({
     type: Boolean,
     default: true,
   },
-  company: {
+  Franchise_company: {
     type: String,
     trim: true,
     required: true,
   },
-  name: {
+  First_name: {
     type: String,
     trim: true,
     required: true,
   },
-  surname: {
+  Surname: {
     type: String,
     trim: true,
     required: true,
   },
-  bankAccount: {
-    type: String,
+  Contact_No: {
+    type: Number,
     trim: true,
+    required: true,
   },
-  companyRegNumber: {
-    type: String,
-    trim: true,
-  },
-  companyTaxNumber: {
-    type: String,
-    trim: true,
-  },
-  companyTaxID: {
-    type: String,
-    trim: true,
-  },
-  customField: [
-    {
-      fieldName: {
-        type: String,
-        trim: true,
-      },
-      fieldValue: {
-        type: String,
-        trim: true,
-      },
-    },
-  ],
-  address: {
-    type: String,
-    trim: true,
-  },
-  country: {
-    type: String,
-    trim: true,
-  },
-  phone: {
+  Email: {
     type: String,
     trim: true,
     required: true,
   },
-  email: {
+  Address: {
     type: String,
     trim: true,
-    lowercase: true,
+    required: true,
   },
-  website: {
+  Gender: {
     type: String,
     trim: true,
+    required: true,
+  },
+  Age: {
+    type: Number,
+    trim: true,
+    required: true,
+  },
+  Marital_Status: {
+    type: String,
+    trim: true,
+    required: true,
+  },
+  Height: {
+    type: Number,
+    trim: true,
+    required: true,
+  },
+  Weight: {
+    type: Number,
+    trim: true,
+    required: true,
+  },
+  Vegetarian: {
+    type: String,
+    trim: true,
+    required: true,
   },
   created: {
     type: Date,
