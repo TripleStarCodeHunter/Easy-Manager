@@ -64,6 +64,9 @@ export default function AdminForm({ isUpdateForm = false }) {
       >
         <Input autoComplete="off" />
       </Form.Item>
+      <Form.Item label="No. of Clients" name="no_of_clients">
+        <Input autoComplete="off" />
+      </Form.Item>
     </>
   );
 }

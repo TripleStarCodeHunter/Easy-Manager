@@ -204,6 +204,10 @@ exports.update = async (req, res) => {
     let updates = {
       role: req.body.role,
       email: req.body.email,
+      name: req.body.name,
+      surname: req.body.surname,
+      contact: req.body.contact,
+      no_of_clients: req.body.no_of_clients,
     };
 
     // Find document by id and updates with the required fields
@@ -230,6 +234,8 @@ exports.update = async (req, res) => {
         email: result.email,
         name: result.name,
         surname: result.surname,
+        contact: result.contact,
+        no_of_clients: result.no_of_clients,
       },
       message: "we update this document by this id: " + req.params.id,
     });
@@ -288,6 +294,8 @@ exports.updatePassword = async (req, res) => {
         email: result.email,
         name: result.name,
         surname: result.surname,
+        contact: result.contact,
+        no_of_clients: result.no_of_clients,
       },
       message: "we update the password by this id: " + req.params.id,
     });
