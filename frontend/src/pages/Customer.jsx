@@ -7,7 +7,7 @@ function Customer() {
   const entity = "client";
   const searchConfig = {
     displayLabels: ["company", "surname", "name"],
-    searchFields: "company,surname,name",
+    searchFields: "company,surname,first_name",
     outputValue: "_id",
   };
 
@@ -25,7 +25,7 @@ function Customer() {
       dataIndex: "first_name",
     },
     {
-      title: "Surname",
+      title: "Last Name",
       dataIndex: "surname",
     },
     {
@@ -75,7 +75,7 @@ function Customer() {
       dataIndex: "first_name",
     },
     {
-      title: "Surame",
+      title: "Last Name",
       dataIndex: "surname",
     },
     {
