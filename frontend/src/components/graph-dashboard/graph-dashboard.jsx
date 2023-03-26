@@ -20,7 +20,7 @@ const LineGraph = () => {
       <CartesianGrid strokeDasharray="3 3" />
       <Tooltip />
       <Legend />
-R     <Line type="monotone" dataKey="Revenue" stroke="#8884d8" activeDot={{ r: 8 }} />
+     <Line type="monotone" dataKey="Revenue" stroke="#8884d8" activeDot={{ r: 8 }} />
       <Line type="monotone" dataKey="Customers" stroke="#82ca9d" />
     </LineChart>
   );

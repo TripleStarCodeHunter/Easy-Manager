@@ -5,7 +5,7 @@ const PayButton = ()=>{
     return(
         <a
         id="stripe-button"
-        href="https://buy.stripe.com/test_14kbKd3M14bkd0c9AA"
+        href="https://buy.stripe.com/test_28ocOhgyN4bkd0ccMO"
         >Pay </a>
     )
 }

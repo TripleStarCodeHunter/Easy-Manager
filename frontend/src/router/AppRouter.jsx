@@ -33,7 +33,7 @@ const NotFound = lazy(() =>
 );
 
 const Success = lazy(() =>
-  import(/*webpackChunkName:'SuccessPage'*/ "@/pages/payment-success")
+  import(/*webpackChunkName:'SuccessPage'*/ "@/pages/Success")
 );
 
 export default function AppRouter() {
