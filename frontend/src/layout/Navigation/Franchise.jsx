@@ -10,6 +10,7 @@ import {
   DashboardOutlined,
   TeamOutlined,
 } from "@ant-design/icons";
+import saslogo from "../../download.jpeg";
 
 const { Sider } = Layout;
 const { SubMenu } = Menu;
@@ -30,7 +31,9 @@ function NavigationFranchise() {
           zIndex: 1000,
         }}
       >
-        <div className="logo" />
+        <div className="whitebox">
+          <img src={saslogo} width="100" className="logoside pad 10" />
+        </div>
         <Menu theme="dark" defaultSelectedKeys={["1"]} mode="inline">
           <Menu.Item key="1" icon={<DashboardOutlined />}>
             <Link to="/" />

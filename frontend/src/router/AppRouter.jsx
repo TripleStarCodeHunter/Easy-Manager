@@ -49,7 +49,7 @@ export default function AppRouter() {
             path="/selectcustomer"
             exact
           />
-          <PrivateRoute component={Success} path="/success" exact/>
+          <PublicRoute component={Success} path="/success" exact />
           <PrivateRoute component={Lead} path="/lead" exact />
           <PrivateRoute component={Product} path="/product" exact />
           <PrivateRoute component={Admin} path="/admin" exact />
