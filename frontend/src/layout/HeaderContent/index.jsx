@@ -14,7 +14,7 @@ export default function HeaderContent() {
   const menu = (
     <Menu>
       <Menu.Item key={`${uniqueId()}`} onClick={() => dispatch(logout())}>
-        logout
+        Logout
       </Menu.Item>
       {/* <Menu.Item key={`${uniqueId()}`}>
         <a
