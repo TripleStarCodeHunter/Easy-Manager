@@ -2,13 +2,13 @@ import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 const data = [
-  { name: 'Jan', Customers: 4000, Revenue: 2400, amt: 2400 },
-  { name: 'Feb', Customers: 3000, Revenue: 1398, amt: 2210 },
-  { name: 'Mar', Customers: 2000, Revenue: 9800, amt: 2290 },
-  { name: 'Apr', Customers: 2780, Revenue: 3908, amt: 2000 },
-  { name: 'May', Customers: 1890, Revenue: 4800, amt: 2181 },
-  { name: 'Jun', Customers: 2390, Revenue: 3800, amt: 2500 },
-  { name: 'Jul', Customers: 3490, Revenue: 4300, amt: 2100 },
+  { name: 'Jan', Customers: 10, Revenue: 50, amt: 2400 },
+  { name: 'Feb', Customers: 17, Revenue: 85, amt: 2210 },
+  { name: 'Mar', Customers: 29, Revenue: 145, amt: 2290 },
+  { name: 'Apr', Customers: 30, Revenue: 150, amt: 2000 },
+  { name: 'May', Customers: 35, Revenue: 175, amt: 2181 },
+  { name: 'Jun', Customers: 43, Revenue: 215, amt: 2500 },
+  { name: 'Jul', Customers: 57, Revenue: 285, amt: 2100 },
   
 ];
 

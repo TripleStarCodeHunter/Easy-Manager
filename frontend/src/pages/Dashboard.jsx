@@ -148,26 +148,26 @@ export default function Dashboard() {
           title={"Total Clients"}
           tagColor={"cyan"}
           prefix={"This year"}
-          tagContent={"200"}
+          tagContent={"217"}
         />
 
         <TopCard
           title={"New Clients"}
           tagColor={"purple"}
           prefix={"This month"}
-          tagContent={"34"}
+          tagContent={"57"}
         />
         <TopCard
-          title={"Total Revenue"}
+          title={" Revenue"}
           tagColor={"green"}
           prefix={"This month"}
-          tagContent={"340000 Rs"}
+          tagContent={"285 $"}
         />
         <TopCard
           title={"Due Royalties"}
           tagColor={"red"}
           prefix={"Not Paid"}
-          tagContent={"34000 Rs"}
+          tagContent={"28.5 $"}
         ></TopCard>
         <PayButton />
       </Row>
@@ -247,7 +247,7 @@ export default function Dashboard() {
                 Customer Preview
               </h3>
 
-              <Progress type="dashboard" percent={25} width={148} />
+              <Progress type="dashboard" percent={26.26} width={148} />
               <p>New Customer this Month</p>
               <Divider />
               <Statistic
