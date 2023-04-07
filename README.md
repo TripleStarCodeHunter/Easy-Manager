@@ -1,4 +1,4 @@
-# CipherPol0
+# Easy Manager
 
 This project is a franchise management system which includes different dashboards for admin as well as the franchise. A Franchise will be able to view data analytics and
 register clients under their name. The admin will have privileges to register new franchises in addition to everything that a franchise will be able to do. The admin can monitor the revenue and client enrollment of every franchise. This ensures transparency and streamlines the client enrollment procedure.
